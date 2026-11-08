@@ -1066,7 +1066,7 @@ text-shadow:
   .cards {
 
     grid-template-columns:
-      1fr;
+      repeat(2, minmax(0, 1fr));
 
   }
 
@@ -1080,6 +1080,9 @@ text-shadow:
 
 @media (max-width: 620px) {
 
+  .cards {
+    grid-template-columns: 1fr;
+  }
   .container {
 
     width:
@@ -1109,19 +1112,10 @@ text-shadow:
 
 
   .nav-links {
-
-    width:
-      100%;
-
-    justify-content:
-      space-between;
-
-    gap:
-      10px;
-
-    font-size:
-      0.88rem;
-
+    width:100%;
+    justify-content:space-between;
+    gap:10px;
+    font-size:1rem;
   }
 
 
@@ -1238,4 +1232,42 @@ pre {
 
 code {
     font-family: 'Fira Code', 'Courier New', Courier, monospace;
+}
+
+.hero-visual iframe {
+    display: block;
+    width: 110%;
+    max-width: 600px;
+    height: auto;
+    aspect-ratio: 600 / 337;
+}
+
+@media (max-width: 900px) {
+    .hero {
+        grid-template-columns: minmax(0, 1fr);
+    }
+
+    .hero-visual,
+    .hero-copy {
+        min-width: 0;
+    }
+
+    .hero-visual iframe {
+        display: block;
+        width: 100%;
+        max-width: 600px;
+        height: auto;
+        aspect-ratio: 600 / 337;
+    }
+}
+
+@media (max-width: 620px) {
+    pre {
+        width: 100%;
+        max-width: 100%;
+        padding: 12px;
+
+        white-space: pre-wrap;
+        overflow-wrap: anywhere;
+    }
 }

@@ -17,6 +17,13 @@ All notable changes to this website will be documented here.
 -
 
 --- -->
+## [v0.2] - 11-7-2026
+
+### Added
+- Mobile and tablet accesibility
+### Changed
+- Reworked card structure to be more dynamic for tablets and phones
+
 ## [v0.1] - 11-7-2026
 
 ### Added
