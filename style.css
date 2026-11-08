@@ -1066,7 +1066,7 @@ text-shadow:
   .cards {
 
     grid-template-columns:
-      1fr;
+      repeat(2, minmax(0, 1fr));
 
   }
 
@@ -1080,6 +1080,9 @@ text-shadow:
 
 @media (max-width: 620px) {
 
+  .cards {
+    grid-template-columns: 1fr;
+  }
   .container {
 
     width:
@@ -1255,5 +1258,16 @@ code {
         max-width: 600px;
         height: auto;
         aspect-ratio: 600 / 337;
+    }
+}
+
+@media (max-width: 620px) {
+    pre {
+        width: 100%;
+        max-width: 100%;
+        padding: 12px;
+
+        white-space: pre-wrap;
+        overflow-wrap: anywhere;
     }
 }
