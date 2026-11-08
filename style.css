@@ -1220,3 +1220,22 @@ text-shadow:
     margin-left: auto;
     margin-right: auto;
 }
+
+pre {
+    background-color: #000000;
+    color: #ffffff;
+    border-radius: 20px;
+    padding: 5px;
+    overflow-x: auto;
+    border: 3px solid #340220;
+
+    display: block;
+    width: max-content;
+    max-width: 90%;
+    margin: 20px auto;
+    overflow-x: auto;
+}
+
+code {
+    font-family: 'Fira Code', 'Courier New', Courier, monospace;
+}
