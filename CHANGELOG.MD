@@ -17,6 +17,25 @@ All notable changes to this website will be documented here.
 -
 
 --- -->
+## [v0.3.1] - 11-9-2026
+
+### Added
+- Directory structure documentation to README.md
+- .vscode/settings.json configuration for local development
+- Consistent base URL configuration across HTML pages
+
+### Changed
+- Reorganized website directory structure
+- Relocated HTML, CSS, JavaScript, and other project files
+- Updated file paths to reflect the new directory structure
+- Standardized internal links
+
+### Fixed
+- Broken CSS and JavaScript references after moving files
+- Broken navigation links between nested pages
+- Incorrect image paths
+- More spelling errors
+
 ## [v0.3] - 11-8-2026
 
 ### Added
