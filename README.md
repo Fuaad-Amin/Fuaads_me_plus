@@ -3,7 +3,7 @@ The site is a personal project/portfolio site. I intend to display may hobbies a
 https://fuaad-amin.github.io/Fuaads_me_plus/
 
 
-##The directory structure (eventually) be as follows
+## The directory structure (eventually) be as follows
 
 ```
 Fuaads_me_plus/
