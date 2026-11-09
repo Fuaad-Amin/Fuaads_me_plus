@@ -17,10 +17,22 @@ All notable changes to this website will be documented here.
 -
 
 --- -->
+## [v0.3] - 11-8-2026
+
+### Added
+- About me page
+- Added "About" to nav bar
+### Changed
+- Footer on all pages to include more links
+- AI Transparency page to be more consistent with the rest of the site
+### Fixed
+- More spelling errors
+- Non-standardized file names
+
 ## [v0.2] - 11-7-2026
 
 ### Added
-- Mobile and tablet accesibility
+- Mobile and tablet accessibility
 ### Changed
 - Reworked card structure to be more dynamic for tablets and phones
 
