@@ -22,6 +22,7 @@ All notable changes to this website will be documented here.
 
 ### Added
 - Résumé links updated Résumé so I can apply to all the jobs... like that's happening anytime soon lmao
+- Template page for future pages
 
 ### Changed
 - Minor wording across multiple pages
