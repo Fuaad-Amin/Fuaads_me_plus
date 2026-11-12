@@ -593,6 +593,12 @@ h1 {
 
 }
 
+.hero-copy em {
+
+  color:
+    var(--text-primary);
+
+}
 
 
 .accent-line {
@@ -904,7 +910,7 @@ h1 {
 
   color: var(--text-primary);
 
-  /* Adding shadows to every fucking direction for the cards. This solution was vibe coded and I honestly can't be bothered to make a propper border around the text... */
+  /* Adding shadows to every fucking direction for the cards. This solution was vibe coded and I honestly can't be bothered to make a proper border around the text... */
 
 text-shadow:
   -2px -2px 0 var(--background-color),

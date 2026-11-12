@@ -17,6 +17,24 @@ All notable changes to this website will be documented here.
 -
 
 --- -->
+
+## [v0.4] - 11-12-2026
+
+### Added
+- Résumé links updated Résumé so I can apply to all the jobs... like that's happening anytime soon lmao
+- Template page for future pages
+
+### Changed
+- Minor wording across multiple pages
+- Minor css styling
+
+### Fixed
+- More spelling errors
+
+### Removed
+- Old Résumé design
+
+
 ## [v0.3.1] - 11-9-2026
 
 ### Added
