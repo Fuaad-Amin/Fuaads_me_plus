@@ -1277,3 +1277,146 @@ code {
         overflow-wrap: anywhere;
     }
 }
+
+
+/* =========================================================
+   NOTES PAGE
+   ========================================================= */
+
+.notes-page .notes-subject + .notes-subject {
+  margin-top: 42px;
+}
+
+.notes-page .notes-subject > .eyebrow {
+  margin-bottom: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.notes-page .notes-list {
+  display: grid;
+  gap: 16px;
+}
+
+/* Wide, compact cards */
+.notes-page .note-entry {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+
+  padding: 24px 28px;
+  border: 1px solid rgba(209, 138, 170, 0.32);
+  border-radius: var(--card-radius);
+
+  background: rgba(18, 7, 25, 0.55);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+
+  transition:
+    background 0.2s ease,
+    border-color 0.2s ease;
+}
+
+.notes-page .note-entry:hover,
+.notes-page .note-entry:focus-within {
+  background: rgba(30, 11, 37, 0.75);
+  border-color: var(--accent);
+}
+
+.notes-page .note-entry-copy {
+  flex: 1;
+  min-width: 0;
+}
+
+.notes-page .note-entry-copy h3,
+.notes-page .note-entry-copy h4 {
+  margin: 0 0 6px;
+
+  color: var(--text-primary);
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(1.3rem, 2.5vw, 1.65rem);
+  font-weight: 700;
+  line-height: 1.25;
+
+  overflow-wrap: anywhere;
+}
+
+.notes-page .note-entry-copy p {
+  margin: 0;
+  color: var(--text-secondary);
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.notes-page .note-entry-copy .note-entry-author {
+  margin-bottom: 8px;
+  color: var(--accent);
+  font-style: italic;
+}
+
+/* Notes, P-set, and textbook links */
+.notes-page .note-entry-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: 10px;
+
+  flex: 0 0 auto;
+  max-width: 45%;
+}
+
+.notes-page .note-entry-links a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+
+  min-height: 44px;
+  padding: 9px 17px;
+  border: 1px solid rgba(209, 138, 170, 0.5);
+  border-radius: 999px;
+
+  color: var(--accent);
+  font-size: 0.9rem;
+  font-weight: 700;
+  text-align: center;
+
+  transition:
+    color 0.2s ease,
+    background 0.2s ease,
+    border-color 0.2s ease;
+}
+
+.notes-page .note-entry-links a:hover {
+  color: var(--background-color);
+  background: var(--accent);
+  border-color: var(--accent);
+}
+
+.notes-page .note-entry-links a:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 4px;
+}
+
+/* Stack links below the text on smaller screens */
+@media (max-width: 700px) {
+  .notes-page .note-entry {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 18px;
+    padding: 22px;
+  }
+
+  .notes-page .note-entry-links {
+    justify-content: flex-start;
+    max-width: 100%;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .notes-page .note-entry,
+  .notes-page .note-entry-links a {
+    transition: none;
+  }
+}

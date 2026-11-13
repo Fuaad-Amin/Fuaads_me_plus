@@ -37,8 +37,9 @@ Fuaads_me_plus/
 │   └── index.html
 ├── notes/
 │   ├── index.html
-│   ├── complex_analysis.html
-│   └── abstract_algebra.html
+│   └── files/
+│       ├── abstract_algebra.pdf
+│       └── complex_analysis.pdf
 ├── assets/
 │   ├── css/
 │   │   ├── style.css

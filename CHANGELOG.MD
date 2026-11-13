@@ -18,6 +18,17 @@ All notable changes to this website will be documented here.
 
 --- -->
 
+## [v0.4.1] - 11-12-2026
+
+### Added
+- Migrated notes page
+- All available files for the notes section 
+- Dedicated CSS button style for file display section
+### Changed
+- README roadmap 
+### Fixed
+- More spelling errors
+
 ## [v0.4] - 11-12-2026
 
 ### Added
