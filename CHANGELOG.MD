@@ -17,6 +17,18 @@ All notable changes to this website will be documented here.
 -
 
 --- -->
+## [v0.4.2] - 11-12-2026 (This is a big one)
+
+### Added
+- Twisty Puzzles main page
+- Modular Origami main page
+- Research main page
+### Changed
+- Non working card links are disabled instead of taking you to under_construction.html
+- Main card formatting for project sub-pages
+### Fixed
+- More spelling errors
+
 
 ## [v0.4.1] - 11-12-2026
 
