@@ -17,6 +17,40 @@ All notable changes to this website will be documented here.
 -
 
 --- -->
+## [v0.4.3] - 11-23-2026
+
+### Added
+- Article template for personal use
+
+### Changed
+- Minor CSS color updates
+
+### Fixed
+- More spelling errors
+
+## [v0.4.2] - 11-12-2026 (This is a big one)
+
+### Added
+- Twisty Puzzles main page
+- Modular Origami main page
+- Research main page
+### Changed
+- Non working card links are disabled instead of taking you to under_construction.html
+- Main card formatting for project sub-pages
+### Fixed
+- More spelling errors
+
+
+## [v0.4.1] - 11-12-2026
+
+### Added
+- Migrated notes page
+- All available files for the notes section 
+- Dedicated CSS button style for file display section
+### Changed
+- README roadmap 
+### Fixed
+- More spelling errors
 
 ## [v0.4] - 11-12-2026
 
@@ -63,8 +97,8 @@ All notable changes to this website will be documented here.
 - Footer on all pages to include more links
 - AI Transparency page to be more consistent with the rest of the site
 ### Fixed
-- More spelling errors
 - Non-standardized file names
+- More spelling errors
 
 ## [v0.2] - 11-7-2026
 
@@ -72,6 +106,8 @@ All notable changes to this website will be documented here.
 - Mobile and tablet accessibility
 ### Changed
 - Reworked card structure to be more dynamic for tablets and phones
+### Fixed
+- More spelling errors
 
 ## [v0.1] - 11-7-2026
 

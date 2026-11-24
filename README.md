@@ -1,4 +1,4 @@
-The site is a personal project/portfolio site. I intend to display may hobbies and have it be a learning tool as well as a professional dev portfolio.
+The site is a personal project/portfolio site. I intend to display my hobbies and have it be a learning tool as well as a professional dev portfolio.
 
 https://fuaad-amin.github.io/Fuaads_me_plus/
 
@@ -37,8 +37,9 @@ Fuaads_me_plus/
 │   └── index.html
 ├── notes/
 │   ├── index.html
-│   ├── complex_analysis.html
-│   └── abstract_algebra.html
+│   └── files/
+│       ├── abstract_algebra.pdf
+│       └── complex_analysis.pdf
 ├── assets/
 │   ├── css/
 │   │   ├── style.css
