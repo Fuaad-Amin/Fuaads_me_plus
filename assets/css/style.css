@@ -1319,7 +1319,7 @@ code {
 
 .notes-page .note-entry:hover,
 .notes-page .note-entry:focus-within {
-  background: rgba(30, 11, 37, 0.75);
+  background:  rgba(52, 2, 32, 0.40);
   border-color: var(--accent);
 }
 
@@ -1332,7 +1332,7 @@ code {
 .notes-page .note-entry-copy h4 {
   margin: 0 0 6px;
 
-  color: var(--text-primary);
+  color: var(--accent);
   font-family: Georgia, "Times New Roman", serif;
   font-size: clamp(1.3rem, 2.5vw, 1.65rem);
   font-weight: 700;
@@ -1419,4 +1419,17 @@ code {
   .notes-page .note-entry-links a {
     transition: none;
   }
+}
+
+/* LATEX PARAGRAPH FORMATTING OF THE FORM
+$$LATEX GOES HERE$$
+*/
+
+.note-entry-copy mjx-container[display="true"] {
+  display: block;
+  width: 100%;
+  margin: 1em 0;
+  text-align: center !important;
+  color:
+    var(--text-secondary);
 }

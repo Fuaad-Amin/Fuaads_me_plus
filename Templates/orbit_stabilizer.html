@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <base href="/Fuaads_me_plus/">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TEST</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="assets/js/cube.js" defer></script>
+    <script>
+      window.MathJax = {
+        tex: {
+          inlineMath: [['$', '$'], ['\\(', '\\)']],
+          displayMath: [['$$', '$$'], ['\\[', '\\]']],
+          processEscapes: true
+        }
+      };
+    </script>
+    <script defer src="https://cdn.jsdelivr.net/npm/mathjax@3.2.2/es5/tex-chtml.js">
+    </script>
+</head>
+<body>
+
+  <canvas id="cube-background"></canvas>
+  <header class="site-header">
+  
+      <div class="container navbar">
+  
+        <a class="logo" href="index.html">
+          Fuaad<span>'</span>s Me Plus
+        </a>
+  
+  
+        <nav class="nav-links">
+  
+          <a  href="index.html">
+            Home
+          </a>
+  
+          <a href="projects/">
+            Projects
+          </a>
+  
+          <a href="research/">
+            Research
+          </a>
+  
+          <a href="notes/">
+            Notes
+          </a>
+        <a href="about_me.html">
+          About
+        </a>
+        </nav>
+  
+      </div>
+  
+  </header>
+<main class="site-content notes-page">
+  <section class="page-banner">
+    <h1>Orbit stabilizer</h1>
+  </section>
+  
+<section class="about container notes-subject">
+  <h2>The orbit-stabilizer theorem</h2>
+  <div class="section-line" aria-hidden="true"></div>
+
+  <div class="notes-list">
+    <div class="note-entry" style="align-items: stretch; pointer-events: none;">
+      <div class="note-entry-copy">
+        <p>
+          Let a group $G$ act on a set $X$, and fix $x \in X$.
+          Define the orbit and stabilizer of $x$ by
+          $$G \cdot x = \{g \cdot x : g \in G\},
+            \qquad G_x = \{g \in G : g \cdot x = x\}.$$
+          Then
+          $$|G \cdot x| = [G : G_x].$$
+          In particular, if $G$ is finite,
+          $$|G| = |G \cdot x|\,|G_x|.$$
+        </p>
+
+        <h4>Proof</h4>
+
+        <p>
+          Consider the map from the set of left cosets of $G_x$ to the orbit:
+          $$\varphi : G/G_x \longrightarrow G \cdot x,
+            \qquad \varphi(gG_x) = g \cdot x.$$
+          Here $G/G_x$ denotes a set of cosets; $G_x$ need not be normal.
+        </p>
+
+        <p>
+          <strong>Well-defined.</strong>
+          If $gG_x = hG_x$, then $h^{-1}g \in G_x$. Consequently,
+          $$g \cdot x
+            = h \cdot \bigl((h^{-1}g) \cdot x\bigr)
+            = h \cdot x.$$
+          Thus $\varphi$ is independent of the chosen coset representative.
+        </p>
+
+        <p>
+          <strong>Injective.</strong>
+          If $\varphi(gG_x) = \varphi(hG_x)$, then $g \cdot x = h \cdot x$.
+          Applying $h^{-1}$ gives
+          $$(h^{-1}g) \cdot x = x.$$
+          Hence $h^{-1}g \in G_x$, so $gG_x = hG_x$.
+        </p>
+
+        <p>
+          <strong>Surjective.</strong>
+          Every $y \in G \cdot x$ has the form $y = g \cdot x$
+          for some $g \in G$. Therefore $\varphi(gG_x) = y$.
+        </p>
+
+        <p>
+          Thus $\varphi$ is a bijection, and
+          $$|G \cdot x| = |G/G_x| = [G : G_x].$$
+          If $G$ is finite, its left cosets partition $G$ into
+          $[G : G_x]$ sets, each containing $|G_x|$ elements. Therefore
+          $$|G| = [G : G_x]\,|G_x|
+                = |G \cdot x|\,|G_x|.\qquad \square$$
+        </p>
+      </div>
+    </div>
+  </div>
+
+</section>
+  
+        <article class="about container">
+          <!-- BEGIN TEXT — LEFT ELEMENT / RIGHT TEXT -->
+          <div class="note-entry" style="align-items: stretch; pointer-events: none;">
+            <div class="note-entry-copy" style="width: 100%;">
+              <div class="about-copy"><p>A definition, observation, or short proof can live in the same panel as any other example.</p><p>Replace this text with your own argument. Keep longer explanations in ordinary paragraphs outside the panel.</p></div>
+            </div>
+            <div class="note-entry-copy" style="width: 100%;">
+              <h3>Explain the example</h3>
+              <p>Use this column for commentary on the definition or proof. On mobile, it appears underneath the panel’s left-hand content.</p>
+            </div>
+          </div>
+          <!-- END TEXT — LEFT ELEMENT / RIGHT TEXT -->
+        <article>
+        </p>
+
+
+</main>
+
+    <footer class="footer">
+
+        <p>
+            Fuaad's Me Plus
+        </p>
+
+        <p>
+            <a href="index.html">Home</a>
+            &nbsp; &middot; &nbsp;
+            <a href="projects/">Projects</a>
+            &nbsp; &middot; &nbsp;
+            <a href="https://github.com/Fuaad-Amin" target="_blank"rel="noopener noreferrer">GitHub</a>
+            &nbsp; &middot; &nbsp;
+            <a href="ai_transparency.html">AI transparency</a>
+            &nbsp; &middot; &nbsp;
+            <a href="documents/Fuaad_Resume.pdf" target="_blank" rel="noopener noreferrer">Résumé</a>
+        </p>
+
+    </footer>
+
+</body>
+</html>

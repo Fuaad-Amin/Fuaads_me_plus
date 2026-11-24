@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <base href="/Fuaads_me_plus/">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Article title</title>
+    <script>
+      window.MathJax = { tex: { inlineMath: [["\\(", "\\)"], ["$", "$"]],
+        displayMath: [["\\[", "\\]"], ["$$", "$$"]], processEscapes: true } };
+    </script>
+    <script defer src="https://cdn.jsdelivr.net/npm/mathjax@3.2.2/es5/tex-chtml.js"></script>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="assets/js/cube.js" defer></script>
+</head>
+<body>
+
+  <canvas id="cube-background" aria-hidden="true"></canvas>
+  <header class="site-header">
+  
+      <div class="container navbar">
+  
+        <a class="logo" href="index.html">
+          Fuaad<span>'</span>s Me Plus
+        </a>
+  
+  
+        <nav class="nav-links">
+  
+          <a  href="index.html">
+            Home
+          </a>
+  
+          <a href="projects/">
+            Projects
+          </a>
+  
+          <a href="research/">
+            Research
+          </a>
+  
+          <a href="notes/">
+            Notes
+          </a>
+        <a href="about_me.html">
+          About
+        </a>
+        </nav>
+  
+      </div>
+  
+  </header>
+<main class="site-content notes-page">
+  <header class="page-banner"><h1>Article title</h1></header>
+  <article class="about container">
+    <p class="eyebrow">Section · Sub-title</p>
+    <p class="about-copy">By Fuaad Amin · November 16, 2026</p>
+    <div class="section-line" aria-hidden="true"></div>
+    <p class="about-copy">The introduction here can include LaTeX and display mathematics such as $e^{i\pi}+1=0$.</p>
+    <p class="about-copy">Available formatting includes <strong>bold text</strong>, <em>emphasis</em>, and <code>inline code</code>. Duplicate these paragraphs wherever necessary.</p>
+
+
+    <section class="notes-subject" aria-label="Code examples">
+      <h2>Code</h2>
+      <div class="section-line" aria-hidden="true"></div>
+      <div class="notes-list">
+        <!-- BEGIN CODE — FULL WIDTH -->
+        <div class="note-entry" style="align-items: stretch; pointer-events: none;">
+          <div class="note-entry-copy" style="width: 100%;">
+            <pre tabindex="0" aria-label="Python code example" style="width: 100%; max-width: 100%; margin: 0; text-align: left;">
+  <code>cache = {0:1, 1:1}
+
+  def fib(n):
+      if n not in cache:
+          cache[n] = fib(n-1) + fib(n-2)
+      return cache[n]
+
+  for i in range(2000):
+      print(fib(i))</code></pre>
+          </div>
+        </div>
+        <!-- END CODE — FULL WIDTH -->
+
+        <!-- BEGIN CODE — LEFT ELEMENT / RIGHT TEXT -->
+        <div class="note-entry" style="align-items: stretch; pointer-events: none;">
+          <div class="note-entry-copy" style="width: 100%;">
+            <pre tabindex="0" aria-label="Python code example" style="width: 100%; max-width: 100%; margin: 0; text-align: left;">
+  <code>cache = {0:1, 1:1}
+
+  def fib(n):
+      if n not in cache:
+          cache[n] = fib(n-1) + fib(n-2)
+      return cache[n]
+
+  for i in range(2000):
+      print(fib(i))</code></pre>
+          </div>
+          <div class="note-entry-copy" style="width: 100%;">
+            <h3>Fibonacci Memoization</h3>
+            <p>The provided code gives the first 2000 fibonacci numbers using memoization. By storing previously calculated Fibonacci numbers in a dictionary, the program avoids redundant recursive calculations, significantly improving efficiency. Each Fibonacci number is computed only once, reducing the time complexity from exponential to linear, $O(n)$, at the cost of $O(n)$ additional memory.</p>
+          </div>
+        </div>
+        <!-- END CODE — LEFT ELEMENT / RIGHT TEXT -->
+      </div>
+      <p class="about-copy">Continue section here.</p>
+    </section>
+
+    <section class="notes-subject" aria-label="YouTube examples">
+      <h2>YouTube</h2>
+      <div class="section-line" aria-hidden="true"></div>
+      <div class="notes-list">
+        <!-- BEGIN YOUTUBE — FULL WIDTH -->
+        <div class="note-entry">
+          <div class="note-entry-copy" style="width: 100%;">
+            <div class="hero-visual">
+                  <!-- Input video below -->
+              <iframe src="https://www.youtube-nocookie.com/embed/yKMy0_0KIX8"
+                title="YouTube Video — Fuaad Amin"
+                width="560" height="315" loading="lazy"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen
+                style="width: 100%; max-width: 100%; height: auto; aspect-ratio: 16 / 9; border: 0;"></iframe>
+            </div>
+                <!-- <p class="video-caption"><a href="https://www.youtube.com/watch?v=yKMy0_0KIX8" target="_blank" rel="noopener noreferrer"><u>Watch on YouTube ↗</u></a> · Fuaad Amin</p> -->
+          </div>
+        </div>
+        <!-- END YOUTUBE — FULL WIDTH -->
+
+        <!-- BEGIN YOUTUBE — LEFT ELEMENT / RIGHT TEXT -->
+        <div class="note-entry" style="align-items: stretch;">
+          <div class="note-entry-copy" style="width: 100%;">
+            <div class="hero-visual">
+                  <!-- Input video below -->
+              <iframe src="https://www.youtube-nocookie.com/embed/yKMy0_0KIX8"
+                title="YouTube Video — Fuaad Amin"
+                width="560" height="315" loading="lazy"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen
+                style="width: 100%; max-width: 100%; height: auto; aspect-ratio: 16 / 9; border: 0;"></iframe>
+            </div>
+                <!-- <p class="video-caption"><a href="https://www.youtube.com/watch?v=yKMy0_0KIX8" target="_blank" rel="noopener noreferrer"><u>Watch on YouTube ↗</u></a> · Fuaad Amin</p> -->
+          </div>
+          <div class="note-entry-copy" style="width: 100%;">
+            <h3>Video Title</h3>
+            <p>Here you'll find a video of me solving a few rubik's cubes. This is just a long-ass video of me touching plastic while making unfunny comments.</p>
+          </div>
+        </div>
+        <!-- END YOUTUBE — LEFT ELEMENT / RIGHT TEXT -->
+      </div>
+      <p class="about-copy">Text can be placed outside of video and other elements</p>
+    </section>
+
+    <section class="notes-subject" aria-label="Interactive canvas examples">
+      <h2>Interactive canvas</h2>
+      <div class="section-line" aria-hidden="true"></div>
+      <div class="notes-list">
+        <!-- BEGIN INTERACTIVE CANVAS — FULL WIDTH -->
+        <div class="note-entry">
+          <div class="note-entry-copy" style="width: 100%;">
+            <canvas data-article-canvas width="800" height="400" role="img"
+              aria-label="Graph of a sine wave; adjust the frequency with the slider below."
+              style="display: block; width: 100%; height: auto; aspect-ratio: 2 / 1;">A graph of sin(kx), where k is controlled by the frequency slider.</canvas>
+            <label class="about-copy">Frequency: <output>2</output>
+              <input data-frequency type="range" min="1" max="8" step="0.25" value="2" style="display: block; width: 100%; accent-color: #d18aaa" >
+            </label>
+            <noscript><p>Enable JavaScript to use this interactive diagram.</p></noscript>
+          </div>
+        </div>
+        <!-- END INTERACTIVE CANVAS — FULL WIDTH -->
+
+        <!-- BEGIN INTERACTIVE CANVAS — LEFT ELEMENT / RIGHT TEXT -->
+        <div class="note-entry" style="align-items: stretch;">
+          <div class="note-entry-copy" style="width: 100%;">
+            <canvas data-article-canvas width="800" height="400" role="img"
+              aria-label="Graph of a sine wave; adjust the frequency with the slider below."
+              style="display: block; width: 100%; height: auto; aspect-ratio: 2 / 1;">A graph of sin(kx), where k is controlled by the frequency slider.</canvas>
+            <label class="about-copy">Frequency: <output>2</output>
+              <input data-frequency type="range" min="1" max="8" step="0.25" value="2" style="display: block; width: 100%; accent-color: #d18aaa">
+            </label>
+            <noscript><p>Enable JavaScript to use this interactive diagram.</p></noscript>
+          </div>
+          <div class="note-entry-copy" style="width: 100%;">
+            <h3>Explain the example</h3>
+            <p>Move the slider to change the frequency in \(y=\sin(kx)\). Each copy has its own controls. Replace the drawing code with other JavaScript.</p>
+          </div>
+        </div>
+        <!-- END INTERACTIVE CANVAS — LEFT ELEMENT / RIGHT TEXT -->
+      </div>
+      <p class="about-copy">Continue section here.</p>
+    </section>
+
+    <section class="notes-subject" aria-label="LaTeX examples">
+      <h2>LaTeX</h2>
+      <div class="section-line" aria-hidden="true"></div>
+      <div class="notes-list">
+        <!-- BEGIN LATEX — FULL WIDTH -->
+        <div class="note-entry" style="align-items: stretch; pointer-events: none;">
+          <div class="note-entry-copy" style="width: 100%;">
+            <div tabindex="0" aria-label="Displayed equation" style="max-width: 100%; overflow-x: auto;">
+              $$\sum_{k=1}^{n} k = \frac{(n+1)n}{2}$$
+              $$\sum_{k=1}^{n} k^2 = \frac{(2n+1)(n+1)(n)}{6}$$
+              $$\sum_{k=1}^{n} k^3 = \left(\sum_{k=1}^{n} k\right)^2 = \left(\frac{(n+1)n}{2}\right)^2$$
+            </div>
+          </div>
+        </div>
+        <!-- END LATEX — FULL WIDTH -->
+
+        <!-- BEGIN LATEX — LEFT ELEMENT / RIGHT TEXT -->
+        <div class="note-entry" style="align-items: stretch; pointer-events: none;">
+          <div class="note-entry-copy" style="width: 100%;">
+            <div tabindex="0" aria-label="Displayed equation" style="max-width: 100%; overflow-x: auto;">
+              $$\lim_{x\to a} f(x) = L$$
+              $$\forall \varepsilon > 0, \exists \delta > 0 \mid |x-a| < \delta \implies |f(x) - L| < \varepsilon$$
+            </div>
+          </div>
+          <div class="note-entry-copy" style="width: 100%;">
+            <h3>LaTeX title</h3>
+            <p>To the left we have the definition of a limit. Written in LaTeX, within the article. Which I think is cool</p>
+          </div>
+        </div>
+        <!-- END LATEX — LEFT ELEMENT / RIGHT TEXT -->
+      </div>
+      <p class="about-copy">Continue section here.</p>
+    </section>
+    <section class="notes-subject" aria-label="Text examples">
+      <h2>Text</h2>
+      <div class="section-line" aria-hidden="true"></div>
+      <div class="notes-list">
+        <!-- BEGIN TEXT — FULL WIDTH -->
+        <div class="note-entry" style="align-items: stretch; pointer-events: none;">
+          <div class="note-entry-copy" style="width: 100%;">
+            <div class="about-copy"><p>A definition, observation, or short proof can live in the same panel as any other example. Replace this text with your own argument. Keep longer explanations in ordinary paragraphs outside the panel.</p></div>
+          </div>
+        </div>
+        <!-- END TEXT — FULL WIDTH -->
+
+        <!-- BEGIN TEXT — LEFT ELEMENT / RIGHT TEXT -->
+        <div class="note-entry" style="align-items: stretch; pointer-events: none;">
+          <div class="note-entry-copy" style="width: 100%;">
+            <div class="about-copy"><p>A definition, observation, or short proof can live in the same panel as any other example. Replace this text with your own argument. Keep longer explanations in ordinary paragraphs outside the panel.</p></div>
+          </div>
+          <div class="note-entry-copy" style="width: 100%;">
+            <h3>Explain the example</h3>
+            <p>Use this column for commentary on the definition or proof. On mobile, it appears underneath the panel’s left-hand content.</p>
+          </div>
+        </div>
+        <!-- END TEXT — LEFT ELEMENT / RIGHT TEXT -->
+      </div>
+      <p class="about-copy">Continue section here.</p>
+    </section>
+
+  </article>
+</main>
+<script>
+// INTERACTIVE CANVAS EXAMPLE PROVIDED BY CHATGPT
+// Scoped to each canvas's wrapper: duplicated blocks require no new IDs.
+// Replace draw() original JavaScript. Keep ResizeObserver for sharp rendering.
+for (const canvas of document.querySelectorAll('[data-article-canvas]')) {
+  const wrapper = canvas.parentElement;
+  const slider = wrapper.querySelector('[data-frequency]');
+  const output = wrapper.querySelector('output');
+  const ctx = canvas.getContext('2d');
+  if (!ctx) continue;
+
+  function draw() {
+    const width = canvas.getBoundingClientRect().width;
+    if (!width) return;
+    const height = width / 2;
+    const ratio = window.devicePixelRatio || 1;
+    canvas.width = Math.round(width * ratio);
+    canvas.height = Math.round(height * ratio);
+    ctx.setTransform(ratio, 0, 0, ratio, 0, 0);
+    const colors = getComputedStyle(document.documentElement);
+    ctx.clearRect(0, 0, width, height);
+    const pad = Math.min(24, width / 10);
+    const frequency = Number(slider.value);
+    output.value = slider.value;
+    canvas.setAttribute('aria-label', `Graph of sin(${frequency}x) from 0 to 2π.`);
+
+    // Axes.
+    ctx.strokeStyle = colors.getPropertyValue('--text-secondary').trim();
+    ctx.lineWidth = 1;
+    ctx.beginPath();
+    ctx.moveTo(pad, pad);
+    ctx.lineTo(pad, height - pad);
+    ctx.moveTo(pad, height / 2);
+    ctx.lineTo(width - pad, height / 2);
+    ctx.stroke();
+
+    // Function y = sin(frequency * x). Edit this loop for another graph.
+    ctx.strokeStyle = colors.getPropertyValue('--accent').trim();
+    ctx.lineWidth = 2;
+    ctx.beginPath();
+    for (let px = 0; px <= width - 2 * pad; px++) {
+      const x = px / (width - 2 * pad) * 2 * Math.PI;
+      const y = height / 2 - Math.sin(frequency * x) * (height / 2 - pad);
+      if (px === 0) ctx.moveTo(pad + px, y);
+      else ctx.lineTo(pad + px, y);
+    }
+    ctx.stroke();
+  }
+  slider.addEventListener('input', draw);
+  new ResizeObserver(draw).observe(canvas);
+  window.addEventListener('resize', draw);
+  draw();
+}
+</script>
+
+    <footer class="footer">
+
+        <p>
+            Fuaad's Me Plus
+        </p>
+
+        <p>
+            <a href="index.html">Home</a>
+            &nbsp; &middot; &nbsp;
+            <a href="projects/">Projects</a>
+            &nbsp; &middot; &nbsp;
+            <a href="https://github.com/Fuaad-Amin" target="_blank"rel="noopener noreferrer">GitHub</a>
+            &nbsp; &middot; &nbsp;
+            <a href="ai_transparency.html">AI transparency</a>
+            &nbsp; &middot; &nbsp;
+            <a href="documents/Fuaad_Resume.pdf" target="_blank" rel="noopener noreferrer">Résumé</a>
+        </p>
+
+    </footer>
+
+</body>
+</html>
