@@ -17,16 +17,20 @@ Fuaads_me_plus/
 │   ├── index.html
 │   ├── twisty_puzzles/
 │   │   ├── index.html
-│   │   ├── my_Puzzles.html
-│   │   ├── example_article_1.html
-│   │   ├── example_article_2.html
-│   │   └── example_article_3.html
+│   │   ├── articles/
+│   │   │   ├── example_article_1.html
+│   │   │   ├── example_article_2.html
+│   │   │   └── example_article_3.html
+│   │   └── gallery/
+│   │       └── index.html
 │   ├── modular_origami/
-│   |   ├── index.html
-│   |   ├── gallery.html
-│   │   ├── example_article_1.html
-│   │   ├── example_article_2.html
-│   │   └── example_article_3.html
+│   │   ├── index.html
+│   │   ├── articles/
+│   │   │   ├── example_article_1.html
+│   │   │   ├── example_article_2.html
+│   │   │   └── example_article_3.html
+│   │   └── gallery/
+│   │       └── index.html
 │   └── dev_projects/
 │       ├── index.html
 │       ├── github.com/Fuaad-Amin/Project_Euler
