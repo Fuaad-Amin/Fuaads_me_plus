@@ -17,6 +17,18 @@ All notable changes to this website will be documented here.
 -
 
 --- -->
+## [v0.4.5] - 11-26-2026
+
+### Added
+- Ability to comment on articles with giscus
+
+### Changed
+- Minor CSS changes to article templates
+- File locations for articles and galleries
+
+### Fixed
+- More spelling errors
+
 ## [v0.4.3] - 11-23-2026
 
 ### Added
